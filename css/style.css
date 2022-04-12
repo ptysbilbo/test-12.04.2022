@@ -1,0 +1,29 @@
+html, body {
+	font-family: Bahnschrift, 'Trebuchet MS', sans-serif;
+	font-size: 15px;
+	margin: 0;
+}
+
+body {
+	overflow-y: scroll;
+	--maincolor: #47aad7;
+	--pagewidth: 1280px;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.menu .opcja {
+    border: 1px solid black;
+    padding: 0.5rem;
+    min-width: 10rem;
+    text-align: center;
+}
+
+.menu .opcja:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
